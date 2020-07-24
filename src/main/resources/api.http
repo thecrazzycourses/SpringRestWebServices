@@ -1,0 +1,20 @@
+### Homes :
+GET http://localhost:8080/api/homes
+
+### Users : Save
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "name": "",
+  "birthDate": "2020-07-22T13:40:04.588+00:00"
+}
+
+### Users : Find All
+GET http://localhost:8080/api/users
+
+### Users : Find One
+GET http://localhost:8080/api/users/1
+
+### Users : Delete User
+DELETE http://localhost:8080/api/users/100
